@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <!-- app favicon file link -->
+    <link rel="shortcut icon" href="./mist.png" type="image/x-icon">
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- custom cursor link -->
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+  </head>
+  <body>
+    <!-- weather title -->
+    <h1 class="title">Weather Dashboard</h1>
+    <div class="container">
+      <!-- search section start -->
+      <div class="weather-input">
+        <input class="city-input" type="text" placeholder="enter city name"
+        />
+        <button class="search-btn">Search</button>
+        <div class="seprator"></div>
+        <button class="location-btn">User Current location</button>
+      </div>
+      <!-- search section end -->
+      <!-- weather details section start -->
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="weather-details">
+            <h3>( _____ )</h3>
+            <h4>Temperature: __°C</h4>
+            <h4>Wind: __M/S</h4>
+            <h4>Humidity: __%</h4>
+          </div>
+        </div>
+        <!-- weather details section end -->
+        <!-- 06-Day forecast section start -->
+        <div class="days-forecast">
+          <h2>06-Day forecast</h2>
+          <ul class="weather-cards">
+            <li class="cards">
+              <h3>( _____ )</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>( _____ )</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>( _____ )</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>( _____ )</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>( _____ )</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>( _____ )</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+          </ul>
+        </div>
+        <!-- 06-Day forecast section end -->
+      </div>
+    </div>
+    <!-- JavaScript file link -->
+    <script src="./app.js"></script>
+    <!-- custom cursor js file link -->
+    <script>
+      new kursor({
+          type: 3
+      })
+  </script>
+  </body>
+</html>
